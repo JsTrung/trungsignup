@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0px;
+  padding: 0px;
+	box-sizing: border-box
+}
+.container{
+	max-width:1200px;
+	margin: 0 auto;
+	padding-top: 10px	
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%;
+}
+.gin img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%
+}
+.bg {
+
+	background: #FFFFFF
+	
+}
+.text-right {
+	text-align: right
+}
+.pading-4 {
+	padding: 10px
+}
+.box {
+	
+	box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.15);
+	background: #FFFDFD;
+	border-radius: 10px;
+	width: 100%;
+	height: 400px;
+	position: relative
+}
+.section-1 {
+	background: lightgrey;
+	padding: 50px
+}
+.align-center {
+	align-self: center;
+}
+.align-self-bottom {
+	align-self: flex-end
+}
+.text-right {
+	text-align: right
+}
+.p-2 {
+	margin-top: 15px
+}
+.p-3 {
+	margin-top: 15px
+}
+.p-4 {
+	margin-top: 15px
+}
+.p-5 {
+	margin-top: 20px
+}
+.p-6 {
+	margin-top: 15px
+}
+.p-5-1 {
+	margin-top: 37.7px
+}
+.p-6-1 {
+	margin-top: 68.6px
+}
+.p-7 {
+	margin-top: 15px
+}
+.p-8 {
+	margin-top: 15px
+}
+.mt-5 {
+	margin-top: 15px
+}
+font-family: 'Roboto', sans-serif;
+.pdl-2 {
+	padding-left: 10px
+}
+.pdr-2 {
+	padding-right: 10px
+}
+.text-3 {
+	text-align: center;
+	font-size: 40px
+}
+@media screen and (max-width:415px){
+	.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+		width: 100%
+	}
+.col-sm-6 {
+	width: 33.33% !important;
+}
+	.col-sm-7 {
+	width: 20% !important
+	}
+	.col-sm-8 {
+	width: 10% !important
+	}
+	.custom-btn {
+		padding: 5px 30px 5px 30px !important;
+	}
+	.margin-l {
+		margin-left: 40px
+	}
+	.margin-l-2 {
+		margin-left: 30px
+	}
+}

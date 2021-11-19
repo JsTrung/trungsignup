@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="Doc.css" rel="stylesheet" type="text/css">
+<link href="Doc.css.2.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+<div class="menu">
+<div class="container">
+<div class="row">
+<div class="col-2 col-sm-6">
+<div class="logo">
+<a href="#">
+Iplant
+</a>
+</div>	
+</div>
+<div class="col-7 toolbar col-sm-6" id="myLinks">
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Blog</a></li>
+	<li><a href="#">Contact</a></li>
+	<li><a href="#">Store</a></li>
+	</ul>
+</div>
+<a href="#" class="nav-mobile" onclick="myFunction()">&#9776;</a>
+<div class="col-3 btn margin-l col-sm-6 ">
+	 <button class="custom-btn btn-2"><span>Log In</span></button>
+	<button class="custom-btn btn-3"><span>Sign Up</span></button>
+</div>
+</div>	
+</div>	
+</div>	
+</header>
+	<form action="" >
+   <div class="container">
+     <h1>Form Đăng Ký</h1>
+     <p>Xin hãy nhập biểu mẫu bên dưới để đăng ký.</p>
+     <hr>
+    <label for="email"><b>Email</b></label>
+     <input type="text" placeholder="Nhập Email" name="email" required>
+    <label for="psw"><b>Mật Khẩu</b></label>
+     <input type="password" placeholder="Nhập Mật Khẩu" name="psw" required>
+    <label for="psw-repeat"><b>Nhập Lại Mật Khẩu</b></label>
+     <input type="password" placeholder="Nhập Lại Mật Khẩu" name="psw-repeat" required>
+    <label>
+       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Nhớ Đăng Nhập
+     </label>
+    <div class="clearfix">
+       <button type="submit" class="signupbtn">Sign Up</button>
+     </div>
+   </div>
+ </form>
+
+</body>
+<footer>
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-12 menu-2">
+<a href="#">Shop</a>	
+<a href="#">About Us</a>
+	<a href="#">Find Us</a>
+	<a href="#">Follow Us</a>	
+</div>	
+	
+</div>	
+</div>	
+</div>	
+	
+</footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}	
+</script>
+</html>
